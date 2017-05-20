@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="com.a1694158.harshkumar.myquiz.MainActivity"
+   >
+
+
+    <ImageButton
+        android:id="@+id/btn_ply"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/play"
+        android:text="Play"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Add"
+        android:id="@+id/btn_add"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Delete"
+        android:id="@+id/btn_del"
+        android:layout_weight="1"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btn_edit"
+        android:text="Edit"
+        android:layout_weight="1"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Exit"
+        android:layout_weight="1"
+        android:id="@+id/btn_ext"
+        android:textSize="30sp"/>
+
+</LinearLayout>

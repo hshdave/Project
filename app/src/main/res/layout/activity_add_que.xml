@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.a1694158.harshkumar.myquiz.AddQue"
+    android:weightSum="100"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/edt_que"
+        android:singleLine="false"
+        android:lines="3"
+        android:hint="Enter Question!"
+        android:textAlignment="center"
+        android:layout_weight="20"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Enter Choice One!"
+        android:id="@+id/edt_chA"
+        android:textAlignment="center"
+        android:layout_above="@+id/edt_chB"
+        android:layout_alignParentStart="true"
+        android:layout_weight="13.33"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Enter Choice Two!"
+        android:id="@+id/edt_chB"
+        android:textAlignment="center"
+        android:layout_weight="13.33"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Enter Choice Three!"
+        android:id="@+id/edt_chC"
+        android:textAlignment="center"
+        android:layout_weight="13.33"
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Enter Choice Four!"
+        android:id="@+id/edt_chD"
+        android:textAlignment="center"
+        android:layout_weight="13.33"
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Enter Correct Answer!"
+        android:id="@+id/edt_correctAns"
+        android:textAlignment="center"
+        android:layout_weight="13.33"
+        />
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="ADD"
+            android:layout_weight="13.33"
+            android:textSize="30sp"/>
+
+
+</LinearLayout>

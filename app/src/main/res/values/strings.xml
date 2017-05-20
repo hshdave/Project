@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="quiz">Play Quiz</string>
+    <string name="addque">Add Quiz</string>
+    <string name="delque">Delete Quiz</string>
+    <string name="editquiz">Edit Quiz</string>
+    <string name="que">Questions</string>
+    <string name="score">Score</string>
+</resources>

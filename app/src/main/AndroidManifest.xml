@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.a1694158.harshkumar.myquiz">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Flash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Quiz"
+            android:label="@string/quiz"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddQue"
+            android:label="@string/addque"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".delete_que"
+            android:label="@string/delque"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Edit_ques"
+            android:label="@string/editquiz"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EditList"
+            android:label="@string/que"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TotalScore"
+            android:label="@string/score"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
